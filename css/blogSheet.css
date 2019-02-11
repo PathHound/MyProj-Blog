@@ -1,0 +1,73 @@
+/*-Navigation-*/
+.homeNav{
+  background-color: #FFCB0F;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 25px;
+  z-index: 1;
+  text-align:center;
+  border-bottom: solid 5px #3a2700;
+  font-size: 20px;
+  box-shadow: 0px 10px #cacaca;
+}
+
+.homeNav > a{
+  display: inline-block;
+  border: solid 3px #FFFE3F;
+  border-radius: .583em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*---------------------*/
+.homeNav > a:not(last-child){
+  margin-right: 25px;
+}
+/*-Navigation Margins-*/
+
+.homeNav a:hover{
+  background-color: yellow;
+}
+
+.homeNav details{
+  margin-top: 10px;
+  font-weight: 200;
+  display: inline-block;
+  border: solid 3px #000;
+  position:relative;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+}
+
+.homeNav details a{
+  border-left: solid 1px #000;
+  border-right: solid 1px #000;
+}
+
+/*-Main body or page classes/Selectors-*/
+body{
+  background-color: #dbdbdb;
+  padding-top: 120px;
+}
+
+
+.postit{/*-Hande's the styling of the posted messages to the blog.-*/
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 1.0rem;
+  padding-left: 15px;
+  max-width: 55%;
+  min-width: 795px;
+  margin: auto;/*-Keep's the posted messages center-*/
+  margin-top: 15px; /*-Keep's the 'Gutter' Element between post's top to bottom-*/
+}
+
+/*-Style Rules centered around cell phones.-*/
+@media(min-width: 795px){
+  .upage{
+    background-color: #fafafa;
+  }
+
+}
