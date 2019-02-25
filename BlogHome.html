@@ -7,28 +7,40 @@
   </head>
   <body>
     <div class='homeNav'><!--Home Navigation starts-->
+      <img src='oddcrown.png' alt='A Weird Looking Crown' style='float: left; padding-top: 10px;'></img>
       <a>Home</a>
       <a>Wander The Abandoned World</a>
-      <a>Magic</a> <br>
+     <br>
 
-      <p>2019<p>
-      <div class="monthSel">
-        <ul>
-          <li><a href="">January</a></li>
-          <li><a href="">Febuary</a></li>
-        </ul>
+      <div class="monthNav">
+        <p class='Year'>2018</p><p class='Year'>2019</p>
+<!--2018 Blog Year-->
+        <div id='2018'>
+          <a href="#">Dec</a>
+        </div>
+<!--2019 Blog Year-->
+        <div id='2019'>
+          <a href="#">Jan</a>
+          <a href="#">Feb</a>
+        </div>
       </div>
 
     </div> <!--Home Navigation Ends-->
 
 
-      <div class="postit">
+      <div class="usrPost">
         <h1>Welcome weary wanderer's</h1>
-        <p>
-          This is so easy!
-        </p>
+        <p class='date'>Feb | 11 | 2019</p>
+        <p> This is a custom test post; Anything else below is junk data to test
+          the layout of how data is managed on the site.</p>
+
       </div>
 
-      <script src="blogGame.js"></script>
+
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/blogGame.js"></script>
+      <label>Make a new post!</label>
+      <input type='text' id='pTitle'></input>
   </body>
 </html>

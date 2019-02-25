@@ -4,7 +4,7 @@
   position: fixed;
   width: 100%;
   top: 0;
-  padding: 25px;
+  padding-top: 25px;
   z-index: 1;
   text-align:center;
   border-bottom: solid 5px #3a2700;
@@ -18,6 +18,8 @@
   border-radius: .583em;
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: auto;
+  margin-bottom: 7px;
 }
 
 /*---------------------*/
@@ -29,39 +31,49 @@
 .homeNav a:hover{
   background-color: yellow;
 }
+/*-Main body or page classes/Selectors-*/
 
-.homeNav details{
-  margin-top: 10px;
-  font-weight: 200;
-  display: inline-block;
-  border: solid 3px #000;
-  position:relative;
+.monthNav a{
+  border-left: 2px solid yellow;
+  border-right: 2px solid yellow;
   padding-left: 7px;
   padding-right: 7px;
-  padding-bottom: 5px;
+  border-radius: 25px 25px 3px 3px;
 }
 
-.homeNav details a{
-  border-left: solid 1px #000;
-  border-right: solid 1px #000;
+.monthNav a:hover{
+  background-color: yellow;
 }
 
-/*-Main body or page classes/Selectors-*/
+.monthNav p{
+  display:inline;
+  padding-left: 17px;
+  padding-bottom: 3px;
+  margin-right: auto;
+}
+
 body{
   background-color: #dbdbdb;
   padding-top: 120px;
 }
 
 
-.postit{/*-Hande's the styling of the posted messages to the blog.-*/
+.usrPost{/*-Hande's the styling of the posted messages to the blog.-*/
   background-color: #fff;
   border: solid 1px #fff;
   border-radius: 1.0rem;
   padding-left: 15px;
   max-width: 55%;
-  min-width: 795px;
+  min-width: 500px;
   margin: auto;/*-Keep's the posted messages center-*/
   margin-top: 15px; /*-Keep's the 'Gutter' Element between post's top to bottom-*/
+}
+
+.date{
+  font-size: 10px;
+  font-style: italic oblique;
+  color: #999;
+  padding-bottom: -25px;
 }
 
 /*-Style Rules centered around cell phones.-*/
