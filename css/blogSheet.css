@@ -55,7 +55,7 @@
 
 /*-Body Handlers-*/
 
-.usrPost{/*-Hande's the styling of the posted messages to the blog.-*/
+.usrPost, .nContent{/*-Hande's the styling of the posted messages to the blog.-*/
   background-color: #fff;
   border: solid 1px #fff;
   border-radius: 1.0rem;
@@ -94,7 +94,7 @@ button:hover{
 /*-Body Handler Ends-*/
 
 /*-Rules that Handle Content-*/
-.usrPost input, textarea{
+.nContent input, textarea{
   border: 1px solid #000;
   border-radius: 5px;
   padding-left: 2px;

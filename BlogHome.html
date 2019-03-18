@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obscure and Wandering</title>
     <link rel="stylesheet" href="css/blogSheet.css">
   </head>
@@ -9,7 +10,6 @@
     <div class='homeNav'><!--Home Navigation starts-->
       <img src='oddcrown.png' alt='A Weird Looking Crown' style='float: left; padding-top: 10px;'></img>
       <a>Home</a>
-      <a>Wander The Abandoned World</a>
      <br>
 
       <div class="monthNav">
@@ -28,15 +28,13 @@
 
     </div> <!--Home Navigation Ends-->
 
-      <div id='arcPost'>
+<div id='arcPost'> <!--Arc Post Begins:: This is the section where post's can be seen by the user.-->
         <div class="usrPost feb19">
           <h3>Welcome weary wanderer's</h3>
           <p class='date'>Feb | 11 | 2019</p>
           <p> This is a custom test post; Anything else below is junk data to test
             the layout of how data is managed on the site.</p>
         </div>
-      </div>
-
 
 <!--The rest of the post's = Jan 2019!-->
       <div class="usrPost jan19">
@@ -46,13 +44,12 @@
         Hopefully everthing will work out. I hope.
       </p>
       </div>
-    </div>
 
     <div class="usrPost jan19">
       <h3>I'm already a wreck</h3>
       <p class='date'>Jan | 25 | 2019</p>
       <p>This image say's it all.</p>
-      <img src="https://media1.tenor.com/images/5fc1c00353da2626afdf00a868f1606d/tenor.gif" alt="Vegetea Yelling in rage as the image crashes; I don't know how this is even possible."></img>
+      <img src="https://media1.tenor.com/images/5fc1c00353da2626afdf00a868f1606d/tenor.gif" alt="Vegetea Yelling in rage as the image crashes; I don't know how this is even possible." style="margin-left: 35%; margin-right: 65%;"></img>
     </div>
 
     <div class="usrPost jan19">
@@ -82,16 +79,18 @@
       <p>This is becoming a spiffy website/blog spot. I may litteraly publish this project as an ongoing website; once I've removed the post blog section of course.</p>
       <p>Here we go people!</p>
     </div>
-  </div>
+</div><!--arcPost Ends-->
 
-  <p class="usrPost mar19 nContent">
-    <label>Post Title</label>
-    <input type='text' id='pTitle'></input><br>
-    <label>Post Date</label>
-    <input type='text' id='pDate'></input><br>
-    <textarea rows="7" wrap="hard" id='pContent'></textarea>
-    <button type="button" id="btnPost">Post</button>
-  </p>
+  <div>
+    <p class="nContent">
+      <label>Post Title</label>
+      <input type='text' id='pTitle'></input><br>
+      <label>Post Date</label>
+      <input type='text' id='pDate'></input><br>
+      <textarea rows="7" wrap="hard" id='pContent'></textarea>
+      <button type="button" id="btnPost">Post</button>
+    </p>
+  </div>
 
   </body>
   <script src="js/jquery-3.3.1.min.js"></script>
