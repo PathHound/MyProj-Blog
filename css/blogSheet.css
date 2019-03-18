@@ -50,6 +50,21 @@
   padding-left: 17px;
   padding-bottom: 3px;
   margin-right: auto;
+  cursor: pointer;
+}
+
+/*-Body Handlers-*/
+
+.usrPost{/*-Hande's the styling of the posted messages to the blog.-*/
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 1.0rem;
+  padding-left: 15px;
+  padding-bottom: 7px;
+  max-width: 55%;
+  min-width: 500px;
+  margin: auto;/*-Keep's the posted messages center-*/
+  margin-top: 15px; /*-Keep's the 'Gutter' Element between post's top to bottom-*/
 }
 
 body{
@@ -57,16 +72,33 @@ body{
   padding-top: 120px;
 }
 
+textarea{
+  width: 97%;
+  resize: none;
+}
 
-.usrPost{/*-Hande's the styling of the posted messages to the blog.-*/
-  background-color: #fff;
-  border: solid 1px #fff;
-  border-radius: 1.0rem;
-  padding-left: 15px;
-  max-width: 55%;
-  min-width: 500px;
-  margin: auto;/*-Keep's the posted messages center-*/
-  margin-top: 15px; /*-Keep's the 'Gutter' Element between post's top to bottom-*/
+button{
+  font-size: 18px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border: 2px solid #cacaca;
+  border-radius: 25px;
+  background-color: #FFED2F;
+}
+
+button:hover{
+  background-color: #FFFE3F;
+}
+/*-Body Handler Ends-*/
+
+/*-Rules that Handle Content-*/
+.usrPost input, textarea{
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .date{
@@ -77,9 +109,9 @@ body{
 }
 
 /*-Style Rules centered around cell phones.-*/
-@media(min-width: 795px){
-  .upage{
-    background-color: #fafafa;
+@media screen and (min-width: 481px;){
+  body{
+    background-color: #FFF;
   }
 
 }

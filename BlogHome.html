@@ -22,25 +22,78 @@
         <div id='2019'>
           <a href="#">Jan</a>
           <a href="#">Feb</a>
+          <a href="#">Mar</a>
         </div>
       </div>
 
     </div> <!--Home Navigation Ends-->
 
-
-      <div class="usrPost">
-        <h1>Welcome weary wanderer's</h1>
-        <p class='date'>Feb | 11 | 2019</p>
-        <p> This is a custom test post; Anything else below is junk data to test
-          the layout of how data is managed on the site.</p>
-
+      <div id='arcPost'>
+        <div class="usrPost feb19">
+          <h3>Welcome weary wanderer's</h3>
+          <p class='date'>Feb | 11 | 2019</p>
+          <p> This is a custom test post; Anything else below is junk data to test
+            the layout of how data is managed on the site.</p>
+        </div>
       </div>
 
 
+<!--The rest of the post's = Jan 2019!-->
+      <div class="usrPost jan19">
+        <h3>I start my frustrating journey to be a software developer</h3>
+        <p class='date'>Jan | 21 | 2019</p>
+        <p> This journey will have many up's and down's. More down's than I am comfortable with.
+        Hopefully everthing will work out. I hope.
+      </p>
+      </div>
+    </div>
 
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/blogGame.js"></script>
-      <label>Make a new post!</label>
-      <input type='text' id='pTitle'></input>
+    <div class="usrPost jan19">
+      <h3>I'm already a wreck</h3>
+      <p class='date'>Jan | 25 | 2019</p>
+      <p>This image say's it all.</p>
+      <img src="https://media1.tenor.com/images/5fc1c00353da2626afdf00a868f1606d/tenor.gif" alt="Vegetea Yelling in rage as the image crashes; I don't know how this is even possible."></img>
+    </div>
+
+    <div class="usrPost jan19">
+      <h3>I'm getting better</h3>
+      <p class='date'>Jan | 27 | 2019</p>
+      <p>The workspaces in Treehouse aren't the greatest and the quiz sections are too loose end, though it teachs so I can't complain much.</p>
+    </div>
+
+    <!--Feb 2019 is already above-->
+    <!--Dec of 2018-->
+    <div class="usrPost dec18">
+      <h3>I'm getting better</h3>
+      <p class='date'>Dec | 25 | 2018</p>
+      <p>CHRISTMAS!!!!!!!!</p>
+    </div>
+
+    <!--Mar 2019-->
+    <div class="usrPost mar19">
+      <h3>We're Almost Done!</h3>
+      <p class='date'>Mar | 11 | 2019</p>
+      <p>I'm COMING DOWN TO THE WIRE!</p>
+    </div>
+
+    <div class="usrPost mar19">
+      <h3>We're Almost Done!</h3>
+      <p class='date'>Mar | 18 | 2019</p>
+      <p>This is becoming a spiffy website/blog spot. I may litteraly publish this project as an ongoing website; once I've removed the post blog section of course.</p>
+      <p>Here we go people!</p>
+    </div>
+  </div>
+
+  <p class="usrPost mar19 nContent">
+    <label>Post Title</label>
+    <input type='text' id='pTitle'></input><br>
+    <label>Post Date</label>
+    <input type='text' id='pDate'></input><br>
+    <textarea rows="7" wrap="hard" id='pContent'></textarea>
+    <button type="button" id="btnPost">Post</button>
+  </p>
+
   </body>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/blogGame.js"></script>
 </html>
