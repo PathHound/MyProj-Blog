@@ -93,7 +93,7 @@ button:hover{
 }
 /*-Body Handler Ends-*/
 
-/*-Rules that Handle Content-*/
+/*-Rules that Handle Content such as blog post's-*/
 .nContent input, textarea{
   border: 1px solid #000;
   border-radius: 5px;
@@ -111,7 +111,8 @@ button:hover{
 /*-Style Rules centered around cell phones.-*/
 @media screen and (min-width: 481px;){
   body{
-    background-color: #FFF;
+    background-color: #000;
+    font-size: 12px;
   }
 
 }
