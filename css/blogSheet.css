@@ -108,11 +108,47 @@ button:hover{
   padding-bottom: -25px;
 }
 
-/*-Style Rules centered around cell phones.-*/
-@media screen and (min-width: 481px;){
+/*-Style Rules centered around cell phones, screens and so on.-*/
+@media only screen and (min-width: 480px) and (max-width: 900px){
   body{
-    background-color: #000;
+    background-color: #cacaca;
+    font-size: 13px;
+  }
+  .homeNav{
+    padding-top: 20px;
+    background-color: #008080;
+    font-size: 22px;
+  }
+  .monthNav a{
+    font-size: 17px;
+  }
+
+}
+
+@media only screen and (min-width: 1px) and (max-width: 480px){
+  body{
+    background-color: #757575;
     font-size: 12px;
+  }
+  .usrPost{
+    max-width: 45%;
+    min-width: 450px;
+    padding-left: none;
+  }
+  .nContent{
+    max-width: 45%;
+    min-width: 450px;
+    padding-left: none;
+  }
+
+  .homeNav{
+    padding-top: 15px;
+    background-color: #c9009c;
+    font-size: 22px;
+  }
+
+  .monthNav a{
+    font-size: 22px;
   }
 
 }
