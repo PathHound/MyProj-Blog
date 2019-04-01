@@ -133,6 +133,17 @@ button:hover{
 /*-Style Rules centered around cell phones, screens and so on.-*/
 @media only screen and (min-width: 490px) and (max-width: 950px){
 
+  .monthNav a{
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    border-radius: 5px 5px 25px 25px;
+    font-size: 17px;
+  }
+
+  .homeNav > a{
+    border-color: #aaaaFF;
+  }
+
   #arcPost{
     padding-left: 0px;
   }
@@ -161,9 +172,7 @@ button:hover{
     background-color: #008080;
     font-size: 22px;
   }
-  .monthNav a{
-    font-size: 17px;
-  }
+
   .usrPost img{
     width: 75%;
     margin-right: 50%;
@@ -207,6 +216,13 @@ button:hover{
 
   .monthNav a{
     font-size: 22px;
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+    border-radius: 20px 20px 10px 10px;
+  }
+
+  .homeNav > a{
+    border-color: #ffbbFF;
   }
 
 }
