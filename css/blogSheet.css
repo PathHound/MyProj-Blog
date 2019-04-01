@@ -45,6 +45,7 @@
   background-color: yellow;
 }
 
+
 .monthNav p{
   display:inline;
   padding-left: 17px;
@@ -54,16 +55,30 @@
 }
 
 /*-Body Handlers-*/
+.contentWrap{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.usrPost{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nContent{
+  margin-left: 5%;
+}
 
 .usrPost, .nContent{/*-Hande's the styling of the posted messages to the blog.-*/
+  display: inline-block;
   background-color: #fff;
   border: solid 1px #fff;
   border-radius: 1.0rem;
   padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 7px;
-  max-width: 55%;
-  min-width: 500px;
-  margin: auto;/*-Keep's the posted messages center-*/
+  max-width: 40%;
+  min-width: 40%;
   margin-top: 15px; /*-Keep's the 'Gutter' Element between post's top to bottom-*/
 }
 
@@ -88,6 +103,13 @@ button{
   background-color: #FFED2F;
 }
 
+
+.usrPost img{
+  width: 100%;
+  height: auto;
+  display: inline;
+}
+
 button:hover{
   background-color: #FFFE3F;
 }
@@ -109,11 +131,31 @@ button:hover{
 }
 
 /*-Style Rules centered around cell phones, screens and so on.-*/
-@media only screen and (min-width: 480px) and (max-width: 900px){
+@media only screen and (min-width: 490px) and (max-width: 950px){
+
+  #arcPost{
+    padding-left: 0px;
+  }
+
+  .contentWrap, .nContent{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
   body{
     background-color: #cacaca;
-    font-size: 13px;
+    font-size: 17px;
   }
+
+  .usrPost, .nContent{
+    display: block;
+    max-width: 650px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
   .homeNav{
     padding-top: 20px;
     background-color: #008080;
@@ -122,23 +164,39 @@ button:hover{
   .monthNav a{
     font-size: 17px;
   }
+  .usrPost img{
+    width: 75%;
+    margin-right: 50%;
+    display: block;
+  }
 
 }
 
-@media only screen and (min-width: 1px) and (max-width: 480px){
+@media only screen and (min-width: 1px) and (max-width: 490px){
+
+  .contentWrap, .nContent{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .usrPost img{
+    width: 75%;
+    margin-right: 50%;
+    display: flex;
+  }
+
+  .usrPost, .nContent{
+    max-width: 40%;
+    min-width: 420px;
+    padding-left: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
   body{
     background-color: #757575;
-    font-size: 12px;
-  }
-  .usrPost{
-    max-width: 45%;
-    min-width: 450px;
-    padding-left: none;
-  }
-  .nContent{
-    max-width: 45%;
-    min-width: 450px;
-    padding-left: none;
+    font-size: 18px;
   }
 
   .homeNav{
