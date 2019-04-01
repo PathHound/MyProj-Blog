@@ -45,6 +45,13 @@
   background-color: yellow;
 }
 
+.monthNav p{
+  color: #FFFF33;
+}
+
+.monthNav p:hover{
+  color: #000000;
+}
 
 .monthNav p{
   display:inline;
@@ -144,6 +151,10 @@ button:hover{
     border-color: #aaaaFF;
   }
 
+  .monthNav p{
+    color: #aaaaFF;
+  }
+
   #arcPost{
     padding-left: 0px;
   }
@@ -182,6 +193,10 @@ button:hover{
 }
 
 @media only screen and (min-width: 1px) and (max-width: 490px){
+
+  .monthNav p{
+    color: #B19CD9;
+  }
 
   .contentWrap, .nContent{
     margin-left: 0%;
